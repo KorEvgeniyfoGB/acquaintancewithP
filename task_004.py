@@ -1,0 +1,5 @@
+a = int(input())
+ak = int((a / 3) * 2)
+ap = int(a / 6)
+ac = int(a / 6)
+print(ap , ak, ac)
