@@ -1,9 +1,9 @@
-n = int(input())
-m = int(input())
-k = int(input())
-if k > m * n:
-    print("NO")
-elif k % m == 0 or k % n == 0:
-    print("YES")
+a = int(input())
+b = int(input())
+c = int(input())
+if c > a * b:
+    print("no")
+elif c % a == 0 or c % b == 0:
+    print("yes")
 else:
-    print("NO")
+    print("no")

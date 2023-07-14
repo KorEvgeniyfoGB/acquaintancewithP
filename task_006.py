@@ -1,12 +1,12 @@
-a = input()
-if len(a) % 2 == 0:
+n = input()
+if len(n) % 2 == 0:
     d = 0
     e = 0
-    for i in range(len(a)):
-        if i >= (len(a) / 2):
-            d += int(a[i])
+    for i in range(len(n)):
+        if i >= (len(n) / 2):
+            d += int(n[i])
         else:
-            e += int(a[i])
+            e += int(n[i])
     if d == e:
         print("yes")
     else:
